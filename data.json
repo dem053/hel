@@ -1,0 +1,48 @@
+[
+  {
+    "model": "dogs.category",
+    "pk": 1,
+    "fields": {
+      "name": "Овчарка",
+      "description": "Большая и злая"
+    }
+  },
+  {
+    "model": "dogs.category",
+    "pk": 2,
+    "fields": {
+      "name": "Колли",
+      "description": "Красивая"
+    }
+  },
+  {
+    "model": "dogs.dog",
+    "pk": 1,
+    "fields": {
+      "name": "Мухтар",
+      "category": 1,
+      "photo": "dogs/Снимок_экрана_2023-12-06_231924.png",
+      "birth_day": "2020-12-14"
+    }
+  },
+  {
+    "model": "dogs.dog",
+    "pk": 2,
+    "fields": {
+      "name": "Пушок",
+      "category": 2,
+      "photo": "",
+      "birth_day": "2023-12-14"
+    }
+  },
+  {
+    "model": "dogs.dog",
+    "pk": 3,
+    "fields": {
+      "name": "Рэкс",
+      "category": 1,
+      "photo": "",
+      "birth_day": "2022-12-14"
+    }
+  }
+]
